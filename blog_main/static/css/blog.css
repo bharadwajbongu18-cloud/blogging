@@ -1,0 +1,224 @@
+/* ============================================
+   Bharadwaj's Blog — Custom Styles
+   ============================================ */
+
+/* ── Base ── */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* ── Header ── */
+.blog-header {
+  border-bottom: 2px solid #f0c040;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #1a1a2e !important;
+  letter-spacing: -0.5px;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+
+.blog-header-logo:hover {
+  color: #e8a020 !important;
+  text-decoration: none;
+}
+
+/* ── Navigation bar ── */
+.nav-scroller {
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.nav-scroller .nav a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #555 !important;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-scroller .nav a:hover {
+  background-color: #fff3cd;
+  color: #c07800 !important;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+/* ── Jumbotron / Hero ── */
+.jumbotron {
+  border-radius: 12px !important;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+}
+
+/* ── Cards ── */
+.card {
+  border-radius: 10px !important;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.10) !important;
+  transform: translateY(-2px);
+}
+
+.card a.text-dark {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.card a.text-dark:hover {
+  color: #c07800 !important;
+}
+
+/* ── Section headings ── */
+h3.text-uppercase.text-warning {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #c07800 !important;
+  border-left: 4px solid #f0c040;
+  padding-left: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ── Sidebar ── */
+.blog-sidebar .bg-light {
+  background-color: #fff8e6 !important;
+  border-left: 4px solid #f0c040;
+  border-radius: 8px;
+}
+
+.blog-sidebar h4 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.blog-sidebar a {
+  color: #c07800;
+  text-decoration: none;
+}
+
+.blog-sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* ── Buttons ── */
+.btn-warning {
+  background-color: #f0c040;
+  border-color: #e8a020;
+  color: #1a1a2e;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.btn-warning:hover {
+  background-color: #e8a020;
+  border-color: #c07800;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* ── Search box ── */
+.input-group .form-control {
+  border-radius: 6px 0 0 6px;
+  border-color: #ddd;
+  font-size: 0.9rem;
+}
+
+/* ── Misc layout ── */
+.display-4 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* ── Pagination ── */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/* ── Blog post detail ── */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+/* ── Footer ── */
+.blog-footer {
+  padding: 2rem 0;
+  margin-top: 3rem;
+  color: #888;
+  text-align: center;
+  background-color: #1a1a2e;
+  border-top: 3px solid #f0c040;
+  border-radius: 8px 8px 0 0;
+}
+
+.blog-footer p {
+  color: #ccc;
+  margin: 0;
+}
+
+.blog-footer a {
+  color: #f0c040;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
