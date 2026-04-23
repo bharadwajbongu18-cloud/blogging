@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ============================================
    Bharadwaj's Blog — Custom Styles
    ============================================ */
@@ -156,6 +157,30 @@ h3.text-uppercase.text-warning {
   font-size: 2.5rem;
 }
 
+=======
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+>>>>>>> 00325dca34ebb989d88c766c4c56aac8dd7a4811
 @media (min-width: 768px) {
   .display-4 {
     font-size: 3rem;
@@ -167,16 +192,24 @@ h3.text-uppercase.text-warning {
 }
 
 .h-250 { height: 250px; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 00325dca34ebb989d88c766c4c56aac8dd7a4811
 @media (min-width: 768px) {
   .h-md-250 { height: 250px; }
 }
 
+<<<<<<< HEAD
 /* ── Pagination ── */
+=======
+/* Pagination */
+>>>>>>> 00325dca34ebb989d88c766c4c56aac8dd7a4811
 .blog-pagination {
   margin-bottom: 4rem;
 }
 
+<<<<<<< HEAD
 /* ── Blog post detail ── */
 .blog-post {
   margin-bottom: 4rem;
@@ -219,6 +252,32 @@ h3.text-uppercase.text-warning {
   text-decoration: underline;
 }
 
+=======
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+>>>>>>> 00325dca34ebb989d88c766c4c56aac8dd7a4811
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
